@@ -1,7 +1,11 @@
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+
 const App = () => {
   return (
     <>
-      <h1>Basic setup done.</h1>
+      <Navbar></Navbar>
+      <Footer></Footer>
     </>
   );
 };
